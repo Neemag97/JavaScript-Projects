@@ -11,7 +11,7 @@ var y = 6;
 var z = x + y;
 
 var x = "They are the so-called \"Pony\" from the north.";
-document.getElementById("demo").innerHTML = x;
+document.getElementById(x);
 
 document.write(Start_by_doing_what_is_necessary, + then_do_what_is_possible, + suddenly_you_are_doing_the_impossible + -Francis_of_Assisi);
 
