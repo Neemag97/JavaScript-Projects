@@ -4,7 +4,7 @@ document.write('Hello, World!');
 var A = "This is a string";
 document.write(A);
 
-window.alert("variable").innerHTML =
+window.alert("varianle").innerHTML =
 "The value of z is: " + z;
 var x = 5;
 var y = 6;
