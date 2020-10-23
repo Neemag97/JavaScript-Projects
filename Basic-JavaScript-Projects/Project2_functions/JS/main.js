@@ -1,4 +1,3 @@
-<button onclick="document.getElementById">The time is?</button>
 
 document.getElementById("button"); 
 

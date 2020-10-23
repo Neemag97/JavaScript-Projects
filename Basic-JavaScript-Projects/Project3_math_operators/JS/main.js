@@ -4,32 +4,32 @@ function myFunction() {
 
 function substraction_Function() {
     var substraction = 5-2
-    document.getElementById("Math").innerHTML = "5-2" + substraction;
+    document.getElementById("sub").innerHTML = "5-2" + substraction;
 } 
 
-function multiplication () {
+function multiplication() {
     var simple_Math = 5*2
-    document.getElementById("Math").innerHTML = "5*2" + simple_Math;
+    document.getElementById("mult").innerHTML = "5*2" + simple_Math;
 } 
 
-function division () {
+function division() {
     var simple_Math = 48/6;
-    document.getElementById("Math").innerHTML="48/6" + simple_Math
+    document.getElementById("div").innerHTML="48/6" + simple_Math;
 }
 
-function more_math () {
+function more_math() {
     var simple_Math = (5+2)*10/2-5;
-    document.getElementById("Math").innerHTML = "5 plus 2, multiplied by 10, divided in half and then substracted by 5 equals " + simple_Math;
+    document.getElementById("more").innerHTML = "5 plus 2, multiplied by 10, divided in half and then substracted by 5 equals " + simple_Math;
 } 
 
-function modulus_Operator () {
+function modulus_Operator() {
     var simple_Math = 25 % 6
-    document.getElementById("Math").innerHTML = "When tou divide 25 by 6 you have a reminder of: " + simple_Math;
+    document.getElementById("mod").innerHTML = "When tou divide 25 by 6 you have a reminder of: " + simple_Math;
 }
 
 function negation_operator() {
     var x = 10;
-    document.getElementById("Math").innerHTML = -x;
+    document.getElementById(neg).innerHTML=-x;
 }
 
 var x=5;
@@ -40,4 +40,4 @@ var x=5.5;
 x--;
 document.write(x);
 
-window.alert(Math.random() );
+window.alert(Math.random());
