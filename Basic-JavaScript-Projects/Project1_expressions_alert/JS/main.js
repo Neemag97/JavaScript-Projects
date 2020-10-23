@@ -10,6 +10,7 @@ var y = 6;
 var z = x + y;
 document.write(z);
 
+
 var x = "They are the so-called \"Pony\" from the north.";
 document.getElementById(x);
 
@@ -26,3 +27,9 @@ var price = price.fontcolor("purple")
 document.write(price);
 
 document.write(3+3);
+
+function myFunction() {
+    var str = "Hello World!";
+    var result = str.fontcolor("green");
+    document.getElementById("color").innerHTML = result;
+}
