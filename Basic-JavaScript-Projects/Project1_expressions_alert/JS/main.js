@@ -14,10 +14,19 @@ document.write(z);
 var x = "They are the so-called \"Pony\" from the north.";
 document.getElementById(x);
 
-document.write("Start_by_doing_what_is_necessary,  +  then_do_what_is_possible,  +  suddenly_you_are_doing_the_impossible  +  -Francis_of_Assisi");
+function concatenate_Function(){
+    var str1 = "Start_by_doing_what_is_necessary,";
+    var str2 = "then_do_what_is_possible,";
+    var str3 = "suddenly_you_are_doing_the_impossible";
+    var str4 = "-Francis_of_Assisi";
+    var res = str1.concat(str2, str3);
+    document.getElementById("concatenate").innerHTML = res;
+}
 
-var B = "Concatenated" + "string"
-document.write(B);
+var A = "Concatenated" ;
+var B = "string";
+var C = A + B
+document.write(C);
 
 var person = "John Doe", carName = "Volvo", price = 200;
 document.getElementById("test").innerHTML= carName;
