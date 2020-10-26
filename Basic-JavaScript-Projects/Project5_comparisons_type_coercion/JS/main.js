@@ -1,11 +1,14 @@
-function my_Function() {
-    typeof "" + "<br>" +
-    typeof "John" + "<br>" + 
-    typeof "John Doe" + "<br>" +
-    typeof 0 + "<br>" +
-    typeof (3.14);
-    document.write("typeof");
-}
+document.getElementById("Test").innerHTML = 
+  typeof "john" + "<br>" +
+  typeof 3.14 + "<br>" +
+  typeof NaN + "<br>" +
+  typeof false + "<br>" +
+  typeof [1,2,3,4] + "<br>" +
+  typeof {name:'john', age:34} + "<br>" +
+  typeof new Date() + "<br>" +
+  typeof function () {} + "<br>" +
+  typeof myCar + "<br>" +
+  typeof null;
 
     var x = 6;
     var y = 5;
@@ -45,10 +48,10 @@ document.write(5 > 8 && 10 > 4); // AND written: && = false because five is less
 document.write(5 > 10 || 10 > 4); //OR written: || “true” because, while 5 is not greater than 10, 10 is greater than 4
 document.write(5 > 10 || 10 > 20); //OR written: || “fase” because, while 5 is not greater than 10, 10 is not greater than 20
 
-function not_Fuunction(){
+function not_Function(){
     document.getElementById("not").innerHTML= !(20 > 10); //Not operator "False" because 20 is truelly greater than 10.
 }
 
-function not_Fuunction(){
+function not_Function(){
     document.getElementById("not").innerHTML= !(5 > 10); //Not operator "False" because 5 is truelly less than 10.
 }
