@@ -37,7 +37,7 @@ function mynewFunction() {
 }
 
 function count_Function() {
-    document.getElementById("Nested_Function").innerHTML= Counnt();
+    document.getElementById("Nested_Function").innerHTML= Count();
     function Count() {
         var Starting_point = 9;
         function Plus_one() {Starting_point += 1;}     //the Plus_one() function was the nested function.

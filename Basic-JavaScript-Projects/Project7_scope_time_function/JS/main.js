@@ -39,7 +39,7 @@ function get_Date() {
 }
 //As a note: The Date().getHours() method returns the hour in the specified date according to the local time, and the hours are listed as integers between 0 and 23. For example: 18 is equal to 6:00 p.m., 12 is noon, etc.
 
-function get_Date() {
+function get_another_Date() {
     if (new Date().getHours() > 18) {
         document.getElementById("Night_Greetings").innerHTML= "Have a Wonderful night!";
     }
@@ -58,7 +58,7 @@ function Age_Function() {
 }
 
 //ELSE IF STATEMENTS. This program pulls the time from your computer and tells you what time of day it is!
-function Time_function() {
+function Time_Function() {
     var Time = new Date().getHours();
     var Reply;
     if (Time < 12 == Time > 0) {
