@@ -63,3 +63,5 @@ let car = {
   }
 };
 document.getElementById("Car-Object")== captureEvents.description();
+//In the above code, the properties are: make, model, year and color. The method is the description function – which should return: The car is a 2021 red Dodge Viper
+
