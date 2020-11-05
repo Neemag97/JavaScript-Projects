@@ -6,14 +6,25 @@ for (i = 0; i < 5; i++) {
 }
 document.getElementById("Loop").innerHTML = text;
 
-//while loop
-var text = "";
-var i = 0;
-while (i < 10) {
-  text += "<br>The number is " + i;
-  i++;
+//For Loop
+var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
+var Content = "";
+var Y;
+function for_Loop() {
+  for (Y = 0; Y < Instruments.length; Y++) {
+    content += Instruments[Y] + "<br>";
+  }
+  document.getElementById("List_of_Instruments").innerHTML = Content;
 }
-document.getElementById("wile_Loop").innerHTML = text;
+
+//while loop
+var Digit = "";
+var x = 1;
+while (x < 11) {
+  Digit += "<br>" + x;
+  x++;
+}
+document.getElementById("Counting_To_Ten").innerHTML = text;
 
 
 //ARRAY
@@ -28,11 +39,11 @@ function array_Function() {
 
 
 //CONST KEYWORD
-function constant_Function() {
-    const Musical_Instrument = {type: "guiter", brand:"Fender", color:"black"};
+function constant_function() {
+    const Musical_Instrument = {type:"guiter", brand:"Fender", color:"black"};
     Musical_Instrument.color= "blue";  //changed the “black” value for the color property to “blue”.
     Musical_Instrument.price = "$900";
-    document.getElementById("Constant").innerHTML= "The cost of the "  +  Musical_Instrument.type + Musical_Instrument.price;
+    document.getElementById("Constant").innerHTML= "The cost of the "  +  Musical_Instrument.type + "was" + Musical_Instrument.price;
 }
 
 //The let keyword
@@ -40,7 +51,7 @@ var x = 82;
 document.write(x);
 {
   let x = 33;
-  document.write("<br>" = x);
+  document.write("<br>" + x);
 }
 document.write("<br>" + x);
 
@@ -62,6 +73,6 @@ let car = {
     return "The car is a "  +  this.year  +  this.color  +  this.make  +  this.model;
   }
 };
-document.getElementById("Car-Object")== captureEvents.description();
+document.getElementById("Car_Object").innerHTML = car.description();
 //In the above code, the properties are: make, model, year and color. The method is the description function – which should return: The car is a 2021 red Dodge Viper
 
